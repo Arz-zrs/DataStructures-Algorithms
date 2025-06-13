@@ -55,11 +55,6 @@ void postOrder(Node *root){
 	cout << root->data << " ";
 }
 
-// side quest
-void printTree() {
-
-}
-
 void freeTree(Node *root){
 	if (root == nullptr) return;
 	freeTree(root->left);
